@@ -107,7 +107,7 @@ button{
 /* main section  */
 .main-section{
     display: flex;
-    padding: 140px;
+    padding: 140px 0;
     justify-content: space-around;
 }
 section h3{
@@ -126,4 +126,16 @@ li{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    }
+    /* secend-section-heading */
+    .secend-section-heading{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        gap: 24px;
+        padding: 12px;
+        justify-content: center;
     }
